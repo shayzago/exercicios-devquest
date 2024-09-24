@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista {
+    background-color: rgb(226, 225, 225);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 21rem;
+    width: 20rem;
+    border: 1px solid rgb(143, 142, 142);
+    border-radius: 8px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.lista img {
+    margin: 45px 0px;
+    width: 20rem;
+}
+
+.lista li{
+    margin-bottom: 15px;
+    list-style-image: url(./img/Icone.png);
+}
+
+.lista p {
+    margin-top: 20px;
+    border: 1px solid rgb(88, 88, 88);
+    border-radius: 8px;
+    padding: 15px;
+}
+
+
